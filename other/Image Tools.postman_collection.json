@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "1e683019-3daa-4642-bdd3-9780483a0c93",
+		"name": "Image Tools",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6615186"
+	},
+	"item": [
+		{
+			"name": "Crop and Perspective Correct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/image",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"image"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
